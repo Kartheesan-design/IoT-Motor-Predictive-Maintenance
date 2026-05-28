@@ -33,7 +33,7 @@ Unplanned industrial motor failures cause significant downtime and safety hazard
 - Estimates **Remaining Useful Life (RUL)** using temperature degradation modeling
 - Enables remote **motor speed control** via Modbus RTU over RS-485
 
-Built on a Siemens 0.75 kW three-phase induction motor with a Delta VFD, two ESP32 nodes, and MATLAB analytics — all within a ~₹14,000 hardware budget.
+Built on a Siemens 0.75 kW three-phase induction motor with a Delta VFD, two ESP32 nodes, and MATLAB analytics.
 
 ---
 
