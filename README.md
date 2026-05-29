@@ -43,21 +43,21 @@ The system is divided into three layers:
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│              DATA ACQUISITION LAYER                  │
+│              DATA ACQUISITION LAYER                 │
 │  ESP32 (System Side) + Sensors (ACS712, ZMPT101B,   │
 │  DS18B20, MPU6050) + Delta VFD + Siemens Motor      │
 └──────────────────────┬──────────────────────────────┘
                        │ Modbus RTU / RS-485
                        ▼
 ┌─────────────────────────────────────────────────────┐
-│            CLOUD COMMUNICATION LAYER                 │
-│        Firebase Realtime Database (<100ms)           │
+│            CLOUD COMMUNICATION LAYER                │
+│        Firebase Realtime Database (<100ms)          │
 │   Remote Controller (ESP32) ↔ Motor Node (ESP32)    │
 └──────────────────────┬──────────────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────────────┐
-│         DATA PROCESSING & PREDICTION LAYER           │
+│         DATA PROCESSING & PREDICTION LAYER          │
 │  MATLAB: FFT, Feature Extraction, Random Forest,    │
 │  RUL Estimation, Confusion Matrix Visualization     │
 └─────────────────────────────────────────────────────┘
