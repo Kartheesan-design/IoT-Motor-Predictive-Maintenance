@@ -1,4 +1,4 @@
-# 🔧 IoT-Based Predictive Maintenance System for Three-Phase Induction Motors
+# 🔧 IoT-Based Predictive Maintenance and Intelligent Fault Forecasting System for 3-Phase Induction Motors
 
 
 
